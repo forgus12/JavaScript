@@ -1,0 +1,13 @@
+<script type="text/javascript">
+	let a = +prompt('Введите значение первой переменной','0');
+	let b = +prompt('Введите значение второй переменной', '0');
+	let x;
+	if (a>=0 && b>=0){
+		x = a-b;
+	}else if(a<0 && b<0){
+		x = a*b;
+	}else if( a>=0 && b<0 || a<0 && b>=0 ){
+		x = a+b;
+	}
+	alert(x);
+</script>
